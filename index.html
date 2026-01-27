@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon-atoms.png" type="image/png">
+    <title>Spider-Man: Homecoming - Interactive Narrative</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-spider"></i>
+                <span>SPIDER-MAN</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#trailer" class="nav-link">Trailer</a></li>
+                <li><a href="#synopsis" class="nav-link">Synopsis</a></li>
+                <li><a href="#narrative" class="nav-link">Story</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-background" style="background-image: url('https://mgx-backend-cdn.metadl.com/generate/images/587886/2026-01-22/7291f0be-3def-4a89-b07e-8b5d66bc2d40.png');"></div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-in">SPIDER-MAN</h1>
+            <h2 class="hero-subtitle animate-fade-in-delay">HOMECOMING</h2>
+            <p class="hero-text animate-fade-in-delay-2">A hero's journey begins at home</p>
+            <a href="#trailer" class="hero-button animate-fade-in-delay-3">
+                <i class="fas fa-play"></i> Watch Trailer
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Team Introduction Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <h2 class="section-title">Meet Our Team</h2>
+            <p class="section-subtitle">The creative minds behind this project</p>
+            <div class="team-grid">
+                <div class="team-card">
+                    <!-- <div class="team-image-wrapper">
+                        <img src="" alt="Team Member 2" class="team-image">
+                        <div class="team-overlay">
+                            <i class="fas fa-user-tie"></i>
+                        </div> 
+                    </div> -->
+                    <div class="team-info">
+                        <h3 class="team-name">Ahmad Alfatah</h3>
+                        <p class="team-role">Student</p>
+                        <p class="team-bio"><strong>Class:</strong> X PPLG 1</p>
+                        <p class="team-bio"><strong>Number:</strong> 01</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <!-- <div class="team-image-wrapper">
+                        <img src="assets/wisnu.jpeg" alt="Team Member 2" class="team-image">
+                        <div class="team-overlay">
+                            <i class="fas fa-user-tie"></i>
+                        </div> 
+                    </div> -->
+                    <div class="team-info">
+                        <h3 class="team-name">Aprian Wisnu A</h3>
+                        <p class="team-role">Student</p>
+                        <p class="team-bio"><strong>Class:</strong> X PPLG 1</p>
+                        <p class="team-bio"><strong>Number:</strong> 05</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <!-- <div class="team-image-wrapper">
+                        <img src="" alt="Team Member 2" class="team-image">
+                        <div class="team-overlay">
+                            <i class="fas fa-user-tie"></i>
+                        </div> 
+                    </div> -->
+                    <div class="team-info">
+                        <h3 class="team-name">Choirul Abdul Yaman</h3>
+                        <p class="team-role">Student</p>
+                        <p class="team-bio"><strong>Class:</strong> X PPLG 1</p>
+                        <p class="team-bio"><strong>Number:</strong> 08</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <!-- <div class="team-image-wrapper">
+                        <img src="" alt="Team Member 2" class="team-image">
+                        <div class="team-overlay">
+                            <i class="fas fa-user-tie"></i>
+                        </div> 
+                    </div> -->
+                    <div class="team-info">
+                        <h3 class="team-name">Ega Muhammad N</h3>
+                        <p class="team-role">Student</p>
+                        <p class="team-bio"><strong>Class:</strong> X PPLG 1</p>
+                        <p class="team-bio"><strong>Number:</strong> 13</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <!-- <div class="team-image-wrapper">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/587886/2026-01-22/d45cb9c5-a4f4-4841-aa4e-36e80730b552.png" alt="Team Member 5" class="team-image">
+                        <div class="team-overlay">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                    </div> -->
+                    <div class="team-info">
+                        <h3 class="team-name">Muhammad Ulittuqo</h3>
+                        <p class="team-role">Student</p>
+                        <p class="team-bio"><strong>Class:</strong> X PPLG 1</p>
+                        <p class="team-bio"><strong>Number:</strong> 22</p>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <!-- <div class="team-image-wrapper">
+                        <img src="assets/gambar2.jpg" alt="Team Member 6" class="team-image">
+                        <div class="team-overlay">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                    </div> -->
+                    <div class="team-info">
+                        <h3 class="team-name">Stefanus Airlangga P.W</h3>
+                        <p class="team-role">Student</p>
+                        <p class="team-bio"><strong>Class:</strong> X PPLG 1</p>
+                        <p class="team-bio"><strong>Number:</strong> 33</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trailer Section -->
+    <section id="trailer" class="trailer-section">
+        <div class="container">
+            <h2 class="section-title">Official Trailer</h2>
+            <p class="section-subtitle">Experience the excitement of Spider-Man: Homecoming</p>
+            <div class="video-wrapper">
+                <iframe 
+                    src="https://www.youtube.com/embed/U0D3AOldjMU?si=AwjeS78Axhy9dHuE" 
+                    title="Spider-Man: Homecoming Official Trailer" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Synopsis Section -->
+    <section id="synopsis" class="synopsis-section">
+        <div class="container">
+            <h2 class="section-title">Film Synopsis</h2>
+            <div class="synopsis-content">
+                <div class="synopsis-image">
+                    <img src="assets/Poster1.jpeg" alt="foto">
+                </div>
+                <div class="synopsis-text">
+                    <p class="synopsis-intro">
+                        <!--  -->
+                    </p>
+                    <p>
+                        Peter Parker balances his life as an ordinary high school student in Queens with his secret identity as Spider-Man. After fighting alongside the Avengers, Peter is impatient to prove he is more than just a "friendly neighborhood Spider-Man." He tracks down a group of criminals led by Adrian Toomes, who sells weapons made from recovered alien technology. When Peter's ambition leads to a disaster, Tony Stark confiscates his high-tech suit. Peter must discover if he has what it takes to be a hero using only his skills and his old homemade costume.
+                    </p>
+                    <div class="synopsis-title">
+                        <h2>CHARACTERS PERSONALITY</h2>
+                    </div>
+                    <div class="synopsis-details">
+                        <div class="detail-item">
+                            <i class="fas fa-user"></i>
+                            <span><strong>Peter Parker:</strong><p>
+                                Brave, ambitious, slighty clumsy, and highly responsible.
+                            </p></span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-user"></i>
+                            <span><strong>Tony Stark:</strong><p>
+                                Wise, protective, wealthy, and acts as a strict mentor
+                            </p></span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-user"></i>
+                            <span><strong>Andrian Toomes:</strong><p>
+                                Resourceful, protective of his family, but ruthless and vengeful
+                            </p></span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-user"></i>
+                            <span><strong>Ned Leeds:</strong><p>
+                                Loyal, enthusiastic, and a technical genius (the "guy in the chair")
+                            </p></span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-user"></i>
+                            <span><strong>Aunty May:</strong><p>
+                                Caring, energetic, and unaware of Peter's secret life
+                            </p></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Narrative Structure Section -->
+    <section id="narrative" class="narrative-section">
+        <div class="container">
+            <h2 class="section-title">Story Structure</h2>
+            <p class="section-subtitle">Explore the narrative elements of Spider-Man: Homecoming</p>
+            <div class="narrative-typography">
+                <div class="typography-title">
+                    <h2>PLACE SETTINGS</h2>
+                </div>
+                <div class="typography-content">
+                    <ul class="typography-text">
+                        <li><strong>Midtown High School:</strong> Where Peter experiences the struggles of a teenager.</li>
+                        <li><strong>Queens, New York:</strong> Peter home base and the area he protects.</li>
+                        <li><strong>The Staten Island Ferry:</strong> The site of a major battle where a ship is torn in half.</li>
+                        <li><strong>The Washington Monument:</strong> Where Peter saves his friends from a falling elevator.</li>
+                        <li><strong>The Beach at Coney Island:</strong> The final battleground between Spider-Man and Vulture.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="narrative-accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header" data-target="orientation">
+                        <div class="accordion-icon">
+                            <i class="fas fa-compass"></i>
+                        </div>
+                        <h3>Orientation</h3>
+                        <i class="fas fa-chevron-down accordion-arrow"></i>
+                    </div>
+                    <div class="accordion-content" id="orientation">
+                        <p>
+                            Peter Parker is a normal student at Midtown High School, but he hides a big secret. When the school day ends, he puts on his mask and swings through the streets of Queens. He works hard to impress his mentor, Tony Stark, because he wants to become a full member of the Avengers. Peter spends his afternoons helping local citizens and waiting for a call for a real mission.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header" data-target="complication">
+                        <div class="accordion-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <h3>Complication</h3>
+                        <i class="fas fa-chevron-down accordion-arrow"></i>
+                    </div>
+                    <div class="accordion-content" id="complication">
+                        <p>
+                            The situation becomes dangerous after Peter encounters Adrian Toomes, a villain known as the Vulture. Toomes steals alien scrap and creates powerful weapons to sell on the black market. Peter tries to stop a deal on a ferry, but the mission fails and nearly kills hundreds of passengers. Then, Tony Stark appears to save the day and takes Peter's advanced suit away. Tony says, "If you're nothing without this suit, then you shouldn't have it."
+                        </p>
+                        <p>
+                            Later, Peter discovers that Toomes is the father of his crush, Liz. At the homecoming dance, Toomes warns Peter and says, "Don't you ever interfere with my business again."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header" data-target="resolution">
+                        <div class="accordion-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Resolution</h3>
+                        <i class="fas fa-chevron-down accordion-arrow"></i>
+                    </div>
+                    <div class="accordion-content" id="resolution">
+                        <p>
+                            Peter ignores the threat and rushes to stop Toomes from stealing a cargo plane full of Avengers' technology. He fights the Vulture in his simple, homemade sweatshirt costume. The plane crashes on a beach. After the suit of the Vulture malfunctions and catches fire, Peter saves Toomes' life instead of letting him die. He leaves Toomes for the police and proves that he is a hero because of his heart, not his gadgets.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header" data-target="reorientation">
+                        <div class="accordion-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3>Reorientation</h3>
+                        <i class="fas fa-chevron-down accordion-arrow"></i>
+                    </div>
+                    <div class="accordion-content" id="reorientation">
+                        <p>
+                            Finally, Tony Stark invites Peter to the Avengers' headquarters and offers him a shiny new Iron Spider suit. However, Peter refuses the offer because he prefers to stay a "friendly neighborhood Spider-Man" for now."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <p class="section-subtitle">Explore stunning Spider-Man imagery</p>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-image="assets/gambar 1.jpeg">
+                    <img src="assets/gambar 1.jpeg" alt="Spider-Man Action">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-image="assets/background.jpeg">
+                    <img src="assets/background.jpeg" alt="Spider-Man Cityscape">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Connect with us on social media</p>
+            <div class="social-links">
+                <a href="https://twitter.com" target="_blank" class="social-link" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="social-link" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://facebook.com" target="_blank" class="social-link" aria-label="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://youtube.com" target="_blank" class="social-link" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <div class="contact-info"> 
+                <a href="https://tv7.lk21official.cc/spider-man-homecoming-2017" class="btn">Watch a Movie</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    &copy; 2024 Spider-Man: Homecoming Interactive Narrative. All rights reserved.
+                </p>
+                <p class="footer-disclaimer">
+                    This is a fan-created educational project. Spider-Man and all related characters are property of Marvel Entertainment and Sony Pictures.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightboxImage">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="./script.js"></script>
+</body>
+
+</html>
